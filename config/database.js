@@ -2,7 +2,7 @@ const Sequelize = require("sequelize");
 
 //////////////////////////////////////////////////enter your user & password
 
-module.exports = new Sequelize("star_db", "root", "Gobruins2020", {
+module.exports = new Sequelize("star_db", "root", "1982", {
   host: "localhost",
   dialect: "mysql",
   operatorsAliases: false,
