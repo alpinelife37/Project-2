@@ -11,6 +11,4 @@ module.exports = new Sequelize('starGazer_db', 'root', '1982', {
     max: 5,
     min: 0,
     acquire: 30000,
-    idle: 10000,
-  },
-});
+
