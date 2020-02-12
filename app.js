@@ -6,7 +6,7 @@ const express = require("express");
 const db = require("./config/database");
 
 db.authenticate()
-  .then(() => console.log("Datebase connected..."))
+  .then(() => console.log("Datebase connected on: http://localhost:" + PORT))
   .catch(err => console.log("Error: " + err));
 
 const app = express();
