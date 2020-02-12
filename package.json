@@ -19,6 +19,7 @@
   "homepage": "https://github.com/alpinelife37/Project-2#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "constellations": "0.0.1",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "mysql": "^2.18.1",
