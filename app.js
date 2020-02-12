@@ -1,13 +1,13 @@
 const express = require("express");
-const exphbs = require("express-handlebars");
-const bodyParser = require("body-parser");
-const path = require("path");
+//const exphbs = require("express-handlebars");
+//const bodyParser = require("body-parser");
+//const path = require("path");
 
-const db = require("./config/database");
+// const db = require("./config/config.json");
 
-db.authenticate()
-  .then(() => console.log("Datebase connected..."))
-  .catch(err => console.log("Error: " + err));
+// db.authenticate()
+//   .then(() => console.log("Datebase connected..."))
+//   .catch(err => console.log("Error: " + err));
 
 const app = express();
 
