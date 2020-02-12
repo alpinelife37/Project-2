@@ -1,58 +1,66 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
-$(function() {
-  $(".change-sleep").on("click", function() {
-    var id = $(this).data("id");
-    var newSleep = $(this).data("newsleep");
-
-    var newSleepState = {
-      sleepy: newSleep
-    };
-
-    // Send the PUT request.
-    $.ajax("/api/cats/" + id, {
-      type: "PUT",
-      data: newSleepState
-    }).then(function() {
-      console.log("changed sleep to", newSleep);
-      // Reload the page to get the updated list
-      location.reload();
-    });
+$(document).ready(function() {
+  // This file just does a GET request to figure out which user is logged in
+  // and updates the HTML on the page
+  $.get("/api/user_data").then(function(data) {
+    $(".member-name").text(data.email);
   });
 
-  $(".create-form").on("submit", function(event) {
-    // Make sure to preventDefault on a submit event.
-    event.preventDefault();
+  $(function() {
+    $(".change-sleep").on("click", function() {
+      var id = $(this).data("id");
+      var newSleep = $(this).data("newsleep");
 
-    var newCat = {
-      name: $("#ca")
-        .val()
-        .trim(),
-      sleepy: $("[name=sleepy]:checked")
-        .val()
-        .trim()
-    };
+      var newSleepState = {
+        sleepy: newSleep
+      };
 
-    // Send the POST request.
-    $.ajax("/api/cats", {
-      type: "POST",
-      data: newCat
-    }).then(function() {
-      console.log("created new cat");
-      // Reload the page to get the updated list
-      location.reload();
+      // Send the PUT request.
+      $.ajax("/api/cats/" + id, {
+        type: "PUT",
+        data: newSleepState
+      }).then(function() {
+        console.log("changed sleep to", newSleep);
+        // Reload the page to get the updated list
+        location.reload();
+      });
     });
-  });
 
-  $(".delete-cat").on("click", function() {
-    var id = $(this).data("id");
+    $(".create-form").on("submit", function(event) {
+      // Make sure to preventDefault on a submit event.
+      event.preventDefault();
 
-    // Send the DELETE request.
-    $.ajax("/api/cats/" + id, {
-      type: "DELETE"
-    }).then(function() {
-      console.log("deleted cat", id);
-      // Reload the page to get the updated list
-      location.reload();
+      var newCat = {
+        name: $("#ca")
+          .val()
+          .trim(),
+        sleepy: $("[name=sleepy]:checked")
+          .val()
+          .trim()
+      };
+
+      // Send the POST request.
+      $.ajax("/api/cats", {
+        type: "POST",
+        data: newCat
+      }).then(function() {
+        console.log("created new cat");
+        // Reload the page to get the updated list
+        location.reload();
+      });
+    });
+
+    $(".delete-cat").on("click", function() {
+      var id = $(this).data("id");
+
+      // Send the DELETE request.
+      $.ajax("/api/cats/" + id, {
+        type: "DELETE"
+      }).then(function() {
+        console.log("deleted cat", id);
+        // Reload the page to get the updated list
+        location.reload();
+      });
     });
   });
 });
