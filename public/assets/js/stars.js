@@ -1,4 +1,3 @@
-
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(document).ready(function() {
   // This file just does a GET request to figure out which user is logged in
@@ -20,14 +19,14 @@ $(document).ready(function() {
       $.ajax("/api/cats/" + id, {
         type: "PUT",
         data: newSleepState
-      }).then(function () {
+      }).then(function() {
         console.log("changed sleep to", newSleep);
         // Reload the page to get the updated list
         location.reload();
       });
     });
 
-    $(".create-form").on("submit", function (event) {
+    $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
 
@@ -44,25 +43,24 @@ $(document).ready(function() {
       $.ajax("/api/cats", {
         type: "POST",
         data: newCat
-      }).then(function () {
+      }).then(function() {
         console.log("created new cat");
         // Reload the page to get the updated list
         location.reload();
       });
     });
 
-    $(".delete-cat").on("click", function () {
+    $(".delete-cat").on("click", function() {
       var id = $(this).data("id");
 
       // Send the DELETE request.
       $.ajax("/api/cats/" + id, {
         type: "DELETE"
-      }).then(function () {
+      }).then(function() {
         console.log("deleted cat", id);
         // Reload the page to get the updated list
         location.reload();
       });
     });
   });
-
 });
