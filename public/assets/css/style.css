@@ -1,19 +1,45 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
-}
+/* Start Global */
 
-.label {
-  font-weight: bold;
-}
 
+/* End Global */
+
+
+
+/* Start Resuable */
+
+
+/*End Reusable */
+
+
+
+/* Start Landing Page */
+
+/* End Landing Page*/
+
+
+
+/* Start Navabar */
+.nav-link {
+  color: white;
+}
+/* End Navbar */
+
+
+
+/* Start form */
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
   margin-bottom: 5px;
 }
+/* End form */
+
+
+
+/* Start */
+
+/* End */
+
