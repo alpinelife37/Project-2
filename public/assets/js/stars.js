@@ -1,66 +1,67 @@
-// Make sure we wait to attach our handlers until the DOM is fully loaded.
-$(document).ready(function() {
-  // This file just does a GET request to figure out which user is logged in
-  // and updates the HTML on the page
-  $.get("/api/user_data").then(function(data) {
-    $(".member-name").text(data.email);
-  });
+console.log("hello world")
+// // Make sure we wait to attach our handlers until the DOM is fully loaded.
+// $(document).ready(function() {
+//   // This file just does a GET request to figure out which user is logged in
+//   // and updates the HTML on the page
+//   $.get("/api/user_data").then(function(data) {
+//     $(".member-name").text(data.email);
+//   });
 
-  $(function() {
-    $(".change-sleep").on("click", function() {
-      var id = $(this).data("id");
-      var newSleep = $(this).data("newsleep");
+//   $(function() {
+//     $(".change-sleep").on("click", function() {
+//       var id = $(this).data("id");
+//       var newSleep = $(this).data("newsleep");
 
-      var newSleepState = {
-        sleepy: newSleep
-      };
+//       var newSleepState = {
+//         sleepy: newSleep
+//       };
 
-      // Send the PUT request.
-      $.ajax("/api/cats/" + id, {
-        type: "PUT",
-        data: newSleepState
-      }).then(function() {
-        console.log("changed sleep to", newSleep);
-        // Reload the page to get the updated list
-        location.reload();
-      });
-    });
+//       // Send the PUT request.
+//       $.ajax("/api/cats/" + id, {
+//         type: "PUT",
+//         data: newSleepState
+//       }).then(function() {
+//         console.log("changed sleep to", newSleep);
+//         // Reload the page to get the updated list
+//         location.reload();
+//       });
+//     });
 
-    $(".create-form").on("submit", function(event) {
-      // Make sure to preventDefault on a submit event.
-      event.preventDefault();
+//     $(".create-form").on("submit", function(event) {
+//       // Make sure to preventDefault on a submit event.
+//       event.preventDefault();
 
-      var newCat = {
-        name: $("#ca")
-          .val()
-          .trim(),
-        sleepy: $("[name=sleepy]:checked")
-          .val()
-          .trim()
-      };
+//       var newCat = {
+//         name: $("#ca")
+//           .val()
+//           .trim(),
+//         sleepy: $("[name=sleepy]:checked")
+//           .val()
+//           .trim()
+//       };
 
-      // Send the POST request.
-      $.ajax("/api/cats", {
-        type: "POST",
-        data: newCat
-      }).then(function() {
-        console.log("created new cat");
-        // Reload the page to get the updated list
-        location.reload();
-      });
-    });
+//       // Send the POST request.
+//       $.ajax("/api/cats", {
+//         type: "POST",
+//         data: newCat
+//       }).then(function() {
+//         console.log("created new cat");
+//         // Reload the page to get the updated list
+//         location.reload();
+//       });
+//     });
 
-    $(".delete-cat").on("click", function() {
-      var id = $(this).data("id");
+//     $(".delete-cat").on("click", function() {
+//       var id = $(this).data("id");
 
-      // Send the DELETE request.
-      $.ajax("/api/cats/" + id, {
-        type: "DELETE"
-      }).then(function() {
-        console.log("deleted cat", id);
-        // Reload the page to get the updated list
-        location.reload();
-      });
-    });
-  });
-});
+//       // Send the DELETE request.
+//       $.ajax("/api/cats/" + id, {
+//         type: "DELETE"
+//       }).then(function() {
+//         console.log("deleted cat", id);
+//         // Reload the page to get the updated list
+//         location.reload();
+//       });
+//     });
+//   });
+// });
