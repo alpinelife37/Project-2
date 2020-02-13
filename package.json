@@ -8,7 +8,7 @@
     "dev": "nodemon app.js",
     "test": "npm run lint",
     "lint": "eslint --quiet .",
-    "fix": "eslint --fix ."
+    "fix": "node node_modules/eslint/bin/eslint.js --fix "
   },
   "repository": {
     "type": "git",
