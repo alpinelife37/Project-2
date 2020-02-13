@@ -1,21 +1,35 @@
-const express = require("express");
-const exphbs = require("express-handlebars");
-//const bodyParser = require("body-parser");
-//const path = require("path");
+// *****************************************************************************
+// Server.js - This file is the initial starting point for the Node/Express server.
+//
+// ******************************************************************************
+// *** Dependencies
+// =============================================================
+var express = require("express");
 
-// const db = require("./config/config.json");
+// Sets up the Express App
+// =============================================================
+var app = express();
+var PORT = process.env.PORT || 8080;
 
-db.authenticate()
-  .then(() => console.log("Datebase connected on: http://localhost:" + PORT))
-  .catch(err => console.log("Error: " + err));
+// Requiring our models for syncing
+var db = require("./models");
 
-const app = express();
+// Sets up the Express app to handle data parsing
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-app.get("/", (reg, res) => res.send("INDEX"));
+// Static directory
+app.use(express.static("public"));
 
-const PORT = process.env.PORT || 5000;
+// Routes
+// =============================================================
+require("./routes/html-routes.js")(app);
+// require("./routes/api-routes.js")(app);
 
-app.engine("handlebars", exphbs({ defaultLayout: "main" }));
-app.set("view engine", "handlebars");
-
-app.listen(PORT, console.log(`Server started on port ${PORT}`));
+// Syncing our sequelize models and then starting our Express app
+// =============================================================
+db.sequelize.sync({ force: true }).then(function() {
+  app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+  });
+});
