@@ -1,20 +1,21 @@
 /* Start Global */
+body {
+  display: flex;
+  flex-direction: column;
+}
 
+form {
+  margin-bottom: 3rem;
+}
 
+.form-group {
+  margin-bottom: 5px;
+}
+
+.container {
+  margin-bottom: 3rem;
+}
 /* End Global */
-
-
-
-/* Start Resuable */
-
-
-/*End Reusable */
-
-
-
-/* Start Landing Page */
-
-/* End Landing Page*/
 
 
 
@@ -22,24 +23,57 @@
 .nav-link {
   color: white;
 }
+
+#navbar {
+  height: 6em;
+  margin-bottom: 20px;
+  display:flex;
+}
+
+#navbarBrand {
+  font-size: 3em;
+}
+
+#navbarTogglerDemo03 {
+  justify-content: flex-end;
+}
+
 /* End Navbar */
 
 
 
 /* Start form */
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-}
-
-.form-group {
-  margin-bottom: 5px;
+#inputConstName {
+  width: 100%
 }
 /* End form */
 
 
 
-/* Start */
+/* Start Display */
 
-/* End */
+/* End Display */
+
+
+
+
+/* Start Footer */
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0px;
+  align-items: end;
+}
+
+.copyright p {
+  font-size: 1rem;
+  color: white;
+}
+
+.push {
+  height: 2rem;
+}
+/* End Footer */
 
