@@ -1,13 +1,14 @@
-var express = require("express");
+const express = require("express");
 
-var router = express.Router();
+const router = express.Router();
 
 // Import the model (cat.js) to use its database functions.
-var Constellation = require("../models/constellations.js");
+const Constellation = require("../models/constellations.js");
 const User = require("../models/user.js");
-
+console.log("hello world");
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
+  console.log("hello space");
   Constellation.all(function(data) {
     var hbsObject = {
       cats: data
