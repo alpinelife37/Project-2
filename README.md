@@ -14,15 +14,16 @@ Node based app that allows users to log in and view information about different 
     - [Local Setup]
 
 1. Setup the database by inputting your Mysql Workbench user & password in the config.js file, located in the config file, line 3 & 4.
-2. Either build the database using Workbench or the CLI with the provided schema.sql and seeds.sql files.
-3. Install the required modules by typing "npm install" or "npm i" in the containing folder using your code editor terminal.
-4. Run the app by typing "node app.js" or "node app."
-5. If successful, the user will see "connected on localhost:5000," and will be able to click on the link to see the app displayed n their default browser.
-6. The user can then either sign up, or log in to see the main content. The user can also log out after they are done.
+2. Either build the database using Workbench or the CLI with the provided schema.sql.
+3. Then run the following two commands to migrate the database "npx sequelize-cli db:migrate",then - "npx sequelize-cli db:seed:all".
+4. Install the required modules by typing "npm install" or "npm i" in the containing folder using your code editor terminal.
+5. Run the app by typing "node app.js" or "node app."
+6. If successful, the user will see "connected on localhost:5000," and will be able to click on the link to see the app displayed n their default browser.
+7. The user can then either sign up, or log in to see the main content. The user can also log out after they are done.
 
    - [Deployed Setup]
 
-7. Click on the following Heroku link to see the deployed version. https://aqueous-dusk-93036.herokuapp.com/
+8. Click on the following Heroku link to see the deployed version. https://aqueous-dusk-93036.herokuapp.com/
 
 ### BUILT WITH
 
@@ -37,6 +38,7 @@ Node based app that allows users to log in and view information about different 
 - [MySql Workbench](https://www.mysql.com/products/workbench/)
 - [Heroku](https://www.heroku.com/)
 - [JawsDB](https://www.jawsdb.com/)
+- [Travis-ci](https://travis-ci.org/)
 
 ### NODE MODULES USED
 
