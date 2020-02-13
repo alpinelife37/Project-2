@@ -1,16 +1,15 @@
-var express = require("express");
+const express = require("express");
 
-var router = express.Router();
+const router = express.Router();
 
-// Import the model (cat.js) to use its database functions.
-var Constellation = require("../models/constellations.js");
-const User = require("../models/user.js");
+// Import the constellation model to use its database functions.
+const index = require("../models/index.js");
 
 // Create all our routes and set up logic within those routes where required.
 router.get("/", function(req, res) {
-  Constellation.all(function(data) {
-    var hbsObject = {
-      cats: data
+  index.all(function(data) {
+    const hbsObject = {
+      constellations: data
     };
     console.log(hbsObject);
     res.render("index", hbsObject);
@@ -27,5 +26,5 @@ router.post("/api/users", function(req, res) {
   );
 });
 
-// Export routes for server.js to use.
+// Export routes for app.js to use.
 module.exports = router;
