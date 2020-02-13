@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-// Import the constellation model to use its database functions.
+// Import the index model to use its database functions.
 const index = require("../models/index.js");
 
 // Create all our routes and set up logic within those routes where required.
