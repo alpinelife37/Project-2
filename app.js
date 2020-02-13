@@ -5,9 +5,9 @@ const express = require("express");
 
 // const db = require("./config/config.json");
 
-// db.authenticate()
-//   .then(() => console.log("Datebase connected..."))
-//   .catch(err => console.log("Error: " + err));
+db.authenticate()
+  .then(() => console.log("Datebase connected on: http://localhost:" + PORT))
+  .catch(err => console.log("Error: " + err));
 
 const app = express();
 
