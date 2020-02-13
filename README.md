@@ -1,61 +1,82 @@
-# Project 2
+# Star Gazer
 
-Test
+2020
 
-## Application Requirements
+### DESCRIPTION
 
-- Must use a Node and Express server
+Node based app that allows users to log in and view information about different astrological formations.
 
-- Must be backed by a MySQL database and an ORM (not necessarily Sequelize)
+![Example profile](./public/assets/example.png)
+![Deployed Link](https://aqueous-dusk-93036.herokuapp.com/)
 
-- Must utilize both GET and POST routes for retrieving and adding new data
+### INSTALLATION INSTRUCTIONS
 
-- Must be deployed using Heroku (with data)
+    - [Local Setup]
 
-- Must utilize at least one new third-party API
+1. Setup the database by inputting your Mysql Workbench user & password in the config.js file, located in the config file, line 3 & 4.
+2. Either build the database using Workbench or the CLI with the provided schema.sql and seeds.sql files.
+3. Install the required modules by typing "npm install" or "npm i" in the containing folder using your code editor terminal.
+4. Run the app by typing "node app.js" or "node app."
+5. If successful, the user will see "connected on localhost:5000," and will be able to click on the link to see the app displayed n their default browser.
+6. The user can then either sign up, or log in to see the main content. The user can also log out after they are done.
 
-- Must have a polished UI
+   - [Deployed Setup]
 
-- Must use a CSS framework _other than_ Bootstrap
+7. Click on the following Heroku link to see the deployed version. https://aqueous-dusk-93036.herokuapp.com/
 
-- Must follow MVC paradigm
+### BUILT WITH
 
-- Must meet good quality coding standards (indentation, scoping, naming)
+- [HTML](https://html.com/)
+- [CSS](https://www.w3schools.com/css/)
+- [Javascript](https://www.javascript.com/)
+- [JQuery](https://jquery.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Font Awesome](https://fontawesome.com/)
+- [Node](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+- [MySql Workbench](https://www.mysql.com/products/workbench/)
+- [Heroku](https://www.heroku.com/)
+- [JawsDB](https://www.jawsdb.com/)
 
-- Must use Handlebars.js
+### NODE MODULES USED
 
-## Presentation Requirements
+- [MySql](https://www.npmjs.com/package/mysql)
+- [Express](https://www.npmjs.com/package/express)
+- [Body-parser](https://www.npmjs.com/package/body-parser)
+- [Eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+- [Eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
+- [Express-handlebars](https://www.npmjs.com/package/express-handlebars)
+- [prettier](https://www.npmjs.com/package/prettier)
+- [mysql2](https://www.npmjs.com/package/mysql2)
+- [sequelize](https://www.npmjs.com/package/sequelize)
+- [eslint](https://www.npmjs.com/package/eslint)
+- [nodemon](https://www.npmjs.com/package/nodemon)
 
-Use this [project presentation template](https://docs.google.com/presentation/d/1_u8TKy5zW5UlrVQVnyDEZ0unGI2tjQPDEpA0FNuBKAw/edit?usp=sharing) to address the following:
+### AUTHOR
 
-- Elevator pitch: a one minute description of your application
+- [Github](https://github.com/equilinquin)
+- [Github](https://github.com/clauries)
+- [Github](https://github.com/jaredbucko)
+- [Github](https://github.com/alpinelife37)
 
-- Concept: What is your user story? What was your motivation for development?
+MIT License
 
-- Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+Copyright (c) [2020][james nelson, elizabeth garcia-quilinquin, jared bucko, laurie schroeder]
 
-- Demo: Show your stuff!
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-- Directions for Future Development
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-- Links to to the deployed application and the GitHub repository
-
-## Grading Metrics
-
-| Metric        | Weight |
-| ------------- | ------ |
-| Concept       | 10%    |
-| Design        | 20%    |
-| Functionality | 30%    |
-| Collaboration | 30%    |
-| Presentation  | 10%    |
-
-## Submission on BCS
-
-You are required to submit the following:
-
-- The URL of the deployed application
-
-- The URL of the GitHub repository
-
-/// npm run dev - will start nodmon server and stop/start server everytime a change is made.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
