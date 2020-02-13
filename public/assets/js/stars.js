@@ -1,4 +1,4 @@
-console.log("hello world")
+console.log("hello world");
 // // Make sure we wait to attach our handlers until the DOM is fully loaded.
 // $(document).ready(function() {
 //   // This file just does a GET request to figure out which user is logged in
