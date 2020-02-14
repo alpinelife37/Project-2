@@ -51,7 +51,9 @@ form {
 
 
 /* Start Display */
-
+#constImage {
+  width: 100%;
+}
 /* End Display */
 
 
