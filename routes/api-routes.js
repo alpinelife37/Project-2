@@ -2,19 +2,18 @@ var db = require("../models");
 var passport = require("../config/passport");
 
 module.exports = function(app) {
-  app.get("/", function(req, res) {
-    Constellation.findAll(function(data) {
-      const constObject = {
-        constellation: data
-      };
-      console.log(constObject);
-      res.render("index", constObject);
+  app.get("/api/constellations", function(req, res) {
+    db.Constellation.findAll({}).then(function(dbConstellation) {
+      res.json(dbConstellation);
     });
   });
 
-  app.get("/api/constellations", function(req, res) {
-    // 1. Add a join to include all of each Author's Posts
-    db.Constellation.findAll({}).then(function(dbConstellation) {
+  app.get("/api/constellations/:name", function(req, res) {
+    db.Constellation.findOne({
+      where: {
+        name: req.params.name
+      }
+    }).then(function(dbConstellation) {
       res.json(dbConstellation);
     });
   });
@@ -36,6 +35,7 @@ module.exports = function(app) {
         res.status(401).json(err);
       });
   });
+
   app.get("/logout", function(req, res) {
     req.logout();
     res.redirect("/");
