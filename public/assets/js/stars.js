@@ -12,13 +12,6 @@ $(document).ready(function() {
         }
       }
     });
-    // $.get("/api/constellations", function(data) {
-    //   console.log(data);
-    //   const optionsToAdd = [];
-    //   for (var i = 0; i < data.length; i++) {
-    //     optionsToAdd.push(newOp(data[i.name]));
-    //   }
-    // });
   }
   getConstellations();
   // This file just does a GET request to figure out which user is logged in
@@ -26,6 +19,7 @@ $(document).ready(function() {
 
   $("#search").on("click", function(event) {
     event.preventDefault();
+    $("div.const-info").html("");
     console.log("clicked");
     populateImg();
     populateInfo();
@@ -34,8 +28,13 @@ $(document).ready(function() {
   function populateImg() {
     const imgDiv = $(".const-image");
     const imgTag = $("<img id='starImg'>");
-    const constName = $("#inputConstName").val();
-    const constImage = `https://starregistration.net/media/wysiwyg/Constellations/${constName}.png`;
+    const constName = $("#inputConstName")
+      .val()
+      .trim()
+      .toLowerCase()
+      .replace(/\s/g, "_");
+    const newConstName = constName.charAt(0).toUpperCase() + constName.slice(1);
+    const constImage = `https://starregistration.net/media/wysiwyg/Constellations/${newConstName}.png`;
     imgDiv.append(imgTag);
     $("#starImg").attr({ src: constImage, alt: constName });
   }
