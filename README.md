@@ -7,14 +7,14 @@
 Node based app that allows users to log in and view information about different astrological formations.
 
 ![Example profile](./public/assets/example.png)
-![Deployed Link](https://aqueous-dusk-93036.herokuapp.com/)
+![Deployed Link] https://aqueous-dusk-93036.herokuapp.com/
 
 ### INSTALLATION INSTRUCTIONS
 
     - [Local Setup]
 
 1. Setup the database by inputting your Mysql Workbench user & password in the config.js file, located in the config file, line 3 & 4.
-2. Either build the database using Workbench or the CLI with the provided schema.sql.
+2. Either build the database using Workbench or the CLI with the provided schema.sql in the db folder.
 3. Then run the following two commands to migrate the database "npx sequelize-cli db:migrate",then - "npx sequelize-cli db:seed:all".
 4. Install the required modules by typing "npm install" or "npm i" in the containing folder using your code editor terminal.
 5. Run the app by typing "node app.js" or "node app."
