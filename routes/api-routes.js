@@ -12,6 +12,13 @@ module.exports = function(app) {
     });
   });
 
+  app.get("/api/constellations", function(req, res) {
+    // 1. Add a join to include all of each Author's Posts
+    db.Constellation.findAll({}).then(function(dbConstellation) {
+      res.json(dbConstellation);
+    });
+  });
+
   app.post("/api/login", passport.authenticate("local"), function(req, res) {
     res.json(req.user);
   });

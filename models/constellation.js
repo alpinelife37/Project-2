@@ -1,5 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
-  const Constellation = sequelize.define("Constellations", {
+  console.log("IMPORT CONSTELLATION");
+  let Constellation = sequelize.define("Constellation", {
     abbr: {
       type: DataTypes.STRING,
       allowNull: true
