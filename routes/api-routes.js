@@ -2,6 +2,16 @@ var db = require("../models");
 var passport = require("../config/passport");
 
 module.exports = function(app) {
+  app.get("/", function(req, res) {
+    Constellation.findAll(function(data) {
+      const constObject = {
+        constellation: data
+      };
+      console.log(constObject);
+      res.render("index", constObject);
+    });
+  });
+
   app.post("/api/login", passport.authenticate("local"), function(req, res) {
     res.json(req.user);
   });
