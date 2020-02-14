@@ -5,11 +5,8 @@ var isAuthenticated = require("../config/middleware/isAuthenticated");
 module.exports = function(app) {
   app.get("/", function(req, res) {
     // If user is logged in default t"/stars
-    console.log("logged in")
     if (req.user) {
-      console.log("pending redirect")
       res.redirect("/stars");
-      console.log("redirected")
     }
     res.sendFile(path.join(__dirname, "../public/signup.html"));
   });
