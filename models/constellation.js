@@ -27,12 +27,12 @@ module.exports = function(sequelize, DataTypes) {
     }
   });
 
-  Constellation.associate = function(models) {
-    Constellation.belongsTo(models.User, {
-      foreignKey: {
-        allowNull: true
-      }
-    });
-  };
+  // Constellation.associate = function(models) {
+  //   Constellation.belongsTo(models.User, {
+  //     foreignKey: {
+  //       allowNull: true
+  //     }
+  //   });
+  // };
   return Constellation;
 };
