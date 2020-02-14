@@ -2,16 +2,6 @@ var db = require("../models");
 var passport = require("../config/passport");
 
 module.exports = function(app) {
-  app.get("/", function(req, res) {
-    Constellation.findAll(function(data) {
-      const constObject = {
-        constellation: data
-      };
-      console.log(constObject);
-      res.render("index", constObject);
-    });
-  });
-
   app.get("/api/constellations", function(req, res) {
     // 1. Add a join to include all of each Author's Posts
     db.Constellation.findAll({}).then(function(dbConstellation) {
