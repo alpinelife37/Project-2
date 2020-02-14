@@ -1,14 +1,16 @@
-console.log("hello world stars.js");
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(document).ready(function() {
   function getConstellations() {
-    //const newOp = $("<option>");
-
     $.ajax({
       method: "GET",
       url: "/api/constellations"
-    }).then(name => {
-      console.log(name);
+    }).then(result => {
+      for (i = 0; i < result.length; i++) {
+        for (i = 0; i < result.length; i++) {
+          let newOption = $("<option>" + result[i].name + "</option>");
+          $("#inputConstName").append(newOption);
+        }
+      }
     });
     // $.get("/api/constellations", function(data) {
     //   console.log(data);
