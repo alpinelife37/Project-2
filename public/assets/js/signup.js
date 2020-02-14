@@ -33,7 +33,7 @@ $(document).ready(function() {
       password: password
     })
       .then(function() {
-        window.location.replace("/index");
+        window.location.replace("/stars");
         // If there's an error, handle it by throwing up a bootstrap alert
       })
       .catch(handleLoginErr);
