@@ -3,17 +3,8 @@ var passport = require("../config/passport");
 
 module.exports = function(app) {
   app.get("/api/constellations", function(req, res) {
+    // 1. Add a join to include all of each Author's Posts
     db.Constellation.findAll({}).then(function(dbConstellation) {
-      res.json(dbConstellation);
-    });
-  });
-
-  app.get("/api/constellations/:name", function(req, res) {
-    db.Constellation.findOne({
-      where: {
-        name: req.params.name
-      }
-    }).then(function(dbConstellation) {
       res.json(dbConstellation);
     });
   });
