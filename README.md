@@ -7,7 +7,7 @@
 Node based app that allows users to log in and view information about different astrological formations.
 
 ![Example profile](./public/assets/example.png)
-![Deployed Link] https://aqueous-dusk-93036.herokuapp.com/
+[Deployed Link](https://aqueous-dusk-93036.herokuapp.com/)
 
 ### INSTALLATION INSTRUCTIONS
 
