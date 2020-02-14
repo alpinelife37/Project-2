@@ -29,24 +29,16 @@ $(document).ready(function() {
     const infoDiv = $(".const-info");
     infoDiv.append(info);
   }
+
+  // function getConstellations() {
+  //   const newOp = $("<option>");
+  //   $.get("/api/constellations", function(data) {
+  //     const optionsToAdd = [];
+  //     for (var i = 0; i < data.length; i++) {
+  //       optionsToAdd.push(createConstellationOption(data[i.name]));
+  //     }
+  //     renderAuthorList(rowsToAdd);
+  //     nameInput.val("");
+  //   });
+  // }
 });
-
-/* Pseudocoding
-On load 
-  loop through db
-  create tags for each object.name
-
-On search 
-  get reqest for object with object.name === name chosen
-    Populate in const-info
-    {{#each stars}}
-        <p>Name: {{name}} ({{abbr}})</p>
-        <p>Derived from: {{genitive}}</p>
-        <p>Mythological Character: {{en}}</p>
-        <p>Description: {{description}}</p>
-        {{/each}}
-  
-  get request to 3rd party api
-    Add name chosen to https://starregistration.net/media/wysiwyg/Constellations/${`name chosen`}.png(601 kB)
-    Populate in const-img
-*/
