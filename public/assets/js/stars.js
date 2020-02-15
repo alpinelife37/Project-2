@@ -1,5 +1,5 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
-$(document).ready(function () {
+$(document).ready(function() {
   function getConstellations() {
     $.ajax({
       method: "GET",
