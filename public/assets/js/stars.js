@@ -10,7 +10,6 @@ $(document).ready(function() {
     getInfo(str);
     populateImg(str);
   });
-  getConstellations();
   function getConstellations() {
     $.ajax({
       method: "GET",
@@ -22,6 +21,11 @@ $(document).ready(function() {
           $("#inputConstName").append(newOption);
         }
       }
+    });
+  }  
+  function getUserName() {
+    $.get("/api/user_data").then(function(data) {
+      $("#userName").text(data.name);
     });
   }
 
@@ -66,4 +70,6 @@ $(document).ready(function() {
     const infoDiv = $(".const-info");
     infoDiv.append(info);
   }
+  getConstellations();
+  getUserName();
 });

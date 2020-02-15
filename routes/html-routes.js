@@ -8,7 +8,7 @@ module.exports = function(app) {
     if (req.user) {
       res.redirect("/stars");
     }
-    res.sendFile(path.join(__dirname, "../public/signup.html"));
+    res.sendFile(path.join(__dirname, "../public/login.html"));
   });
 
   app.get("/login", function(req, res) {
@@ -17,6 +17,14 @@ module.exports = function(app) {
       res.redirect("/stars");
     }
     res.sendFile(path.join(__dirname, "../public/login.html"));
+  });
+
+  app.get("/signup", function(req, res) {
+    // If user is logged in default stars
+    if (req.user) {
+      res.redirect("/stars");
+    }
+    res.sendFile(path.join(__dirname, "../public/signup.html"));
   });
 
   app.get("/stars", isAuthenticated, function(req, res) {
