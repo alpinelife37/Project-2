@@ -13,7 +13,22 @@ $(document).ready(function() {
       }
     });
   }
-  getConstellations();
+
+  function getInfo() {
+    $.ajax({
+      method: "GET",
+      url: "/api/constellations"
+    }).then(result => {
+      const constName = $("#inputConstName").val();
+      for (i = 0; i < result.length; i++) {
+        const constObj = result[i];
+        if (constObj.name === constName) {
+          populateInfo(constObj);
+        }
+      }
+    });
+  }
+
   // This file just does a GET request to figure out which user is logged in
   // and updates the HTML on the page
 
@@ -22,7 +37,7 @@ $(document).ready(function() {
     $("div.const-info").html("");
     console.log("clicked");
     populateImg();
-    populateInfo();
+    getInfo();
   });
 
   function populateImg() {
@@ -39,25 +54,14 @@ $(document).ready(function() {
     $("#starImg").attr({ src: constImage, alt: constName });
   }
 
-  function populateInfo() {
-    console.log("Constellation Names");
+  function populateInfo(data) {
     const info = `
-      <p>Name: ${this.name} (${this.abbr})</p>
-      <p>Derived from: ${this.genitive}</p>
-      <p>Mythological Character: ${this.en}</p>`;
+      <p>Name: ${data.name} (${data.abbr})</p>
+      <p>Derived from: ${data.genitive}</p>
+      <p>Mythological Character: ${data.en}</p>`;
     const infoDiv = $(".const-info");
     infoDiv.append(info);
   }
 
-  // function getConstellations() {
-  //   const newOp = $("<option>");
-  //   $.get("/api/constellations", function(data) {
-  //     const optionsToAdd = [];
-  //     for (var i = 0; i < data.length; i++) {
-  //       optionsToAdd.push(createConstellationOption(data[i.name]));
-  //     }
-  //     renderAuthorList(rowsToAdd);
-  //     nameInput.val("");
-  //   });
-  // }
+  getConstellations();
 });
