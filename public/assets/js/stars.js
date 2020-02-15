@@ -30,7 +30,7 @@ $(document).ready(function() {
     });
   }
 
-  function getInfo() {
+  function getInfo(name) {
     $.ajax({
       method: "GET",
       url: "/api/constellations"
@@ -64,10 +64,12 @@ $(document).ready(function() {
   }
 
   function populateInfo(data) {
+    console.log(data);
     const info = `
       <p>Name: ${data.name} (${data.abbr})</p>
       <p>Derived from: ${data.genitive}</p>
-      <p>English Translation: ${data.en}</p>`;
+      <p>English Translation: ${data.en}</p>
+      <p>Description: ${data.description}`;
     const infoDiv = $(".const-info");
     infoDiv.append(info);
   }
