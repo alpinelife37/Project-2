@@ -3,528 +3,616 @@
     "abbr": "And",
     "name": "Andromeda",
     "genitive": "Andromedae",
-    "en": "Andromeda (mythological character)"
+    "en": "Andromeda (mythological character)",
+    "description": "Andromeda is one of the Greek constellations. It was named after Andromeda, the daughter of Cassiopeia and Cepheus in Greek mythology, who was chained and left for the sea monster Cetus to eat, and then saved by Perseus.  Andromeda was sacrificed to Cetus to appease the gods and stop the monster from ravaging her land. Cetus was sent by the god Poseidon after Cassiopeia had boasted that she was more beautiful than the nymphs."
   },
   {
     "abbr": "Ant",
     "name": "Antlia",
     "genitive": "Antliae",
-    "en": "air pump"
+    "en": "air pump",
+    "description":"Antlia is one of the constellations created by the French astronomer Nicolas Louis de Lacaille in the 18th century. He originally named it Antlia Pneumatica, or Machine Pneumatique in French, in honour of French physicist Denis Papin’s invention, the air pump."
   },
   {
     "abbr": "Aps",
     "name": "Apus",
     "genitive": "Apodis",
-    "en": "Bird-of-paradise"
+    "en": "Bird-of-paradise",
+    "description": "Apus represents a bird of paradise. The constellation’s name means “no feet” in Greek, referring to a western misconception of a bird-of-paradise as one not having feet. The constellation was created and named by the Dutch astronomer and cartographer Petrus Plancius in the late 16th century."
   },
   {
     "abbr": "Aqr",
     "name": "Aquarius",
     "genitive": "Aquarii",
-    "en": "water-bearer"
+    "en": "water-bearer",
+    "description": "Aquarius is one of the 44 Greek constellations. It is usually associated with Ganymede, the cup-carrier to the Olympian gods.  In the myth, Ganymede was the son of King Tros, known for giving Troy its name. Ganymede was the most beautiful boy alive and Zeus was so infatuated with him that he took the form of an eagle and abducted the boy.In some versions of the myth, Zeus sent an eagle, represented by the constellation Aquila, to fetch Ganymede and bring him to Olympus."
   },
   {
     "abbr": "Aql",
     "name": "Aquila",
     "genitive": "Aquilae",
-    "en": "eagle"
+    "en": "eagle",
+    "description": "Aquila constellation is sometimes associated with the eagle that held Zeus’ thunderbolts in Greek mythology and other times with the eagle that abducted Ganymede and brought him to Olympus."
   },
   {
     "abbr": "Ara",
     "name": "Ara",
     "genitive": "Arae",
-    "en": "altar"
+    "en": "altar",
+    "description": "Ara is associated with the altar on which the gods formed an alliance before going to war with the Titans in Greek mythology. The gods were led by Zeus and the Titans by Atlas. In honour of the gods’ victory, Zeus placed the altar in the sky. In various depictions of the constellation, the Milky Way usually represents the smoke rising from the altar."
   },
   {
     "abbr": "Ari",
     "name": "Aries",
     "genitive": "Arietis",
-    "en": "ram"
+    "en": "ram",
+    "description": "Aries is identified as a winged ram with a Golden Fleece, sent by the nymph Nephele to save her son Phrixus after his father, King Athamas of Boeotia, had been given a false prophecy that he had to sacrifice his son to ward off famine.  Phrixus and his sister Helle climbed on the ram and were carried toward Colchis on the shore of the Black Sea. Helle lost her grip and fell into the Dardanelles on the way.  The Greeks named the channel separating Europe and Asia the Hellerospont in her memory. The Golden Fleece was later the object of the Argonauts’ quest to Colchis."
   },
   {
     "abbr": "Aur",
     "name": "Auriga",
     "genitive": "Aurigae",
-    "en": "charioteer"
+    "en": "charioteer",
+    "description": "Auriga, the Charioteer, was said to have been placed in the sky by Zeus himself in honour of its inventor, Erichthonius of Athens. Erichthonius was the son of the god Hephaestus and he was raised by Athena, who taught him many skills. He was the first person to harness four horses to a chariot and is credited as the inventor of the the quadriga, the four-horse chariot. His chariot was said to have been made in the image of the Sun god’s chariot."
   },
   {
     "abbr": "Boo",
     "name": "Bo\u00f6tes",
     "genitive": "Bo\u00f6tis",
-    "en": "herdsman"
+    "en": "herdsman",
+    "description": "Boötes is one of the ancient Greek constellations. The constellation’s name means “the oxen-driver” and Boötes is usually identified as the ploughman who drove the oxen represented by Ursa Major. The constellation is also sometimes associated with Arctophylax, or the Bear Keeper, also referring to Ursa Major, the Big Bear.  In another myth, Boötes represents Arcas, the son of Zeus and Callisto. In the myth, Callisto’s father King Lycaon decides to test Zeus to see if the god is really who he says he is and serves him his son Arcas for dinner. Seeing what Lycaon has done, Zeus kills the king’s sons and turns Lycaon into a wolf, then collects the parts of his own son and makes him whole again. Arcas’ mother Callisto, in the meantime, gets turned into a bear, either by Zeus to disguise her and protect her from Hera’s revenge, or by the jealous Hera herself. When Arcas grows up, he comes face to face with his mother in the woods and does not recognize her. He starts to chase the bear and Zeus intervenes to prevent bloodshed and turns them into the constellations Ursa Major (Callisto) and Boötes (Arcas).  Boötes constellation is also sometimes associated with another mythical figure: Icarius, the wine maker. Icarius was taught by the god Dionysus how to make wine and, when he invited his friends over for dinner, they got so drunk that they thought Icarius had poisoned them and they killed him. Zeus placed him in the sky as the constellation Boötes."
   },
   {
     "abbr": "Cae",
     "name": "Caelum",
     "genitive": "Caeli",
-    "en": "chisel or graving tool"
+    "en": "chisel or graving tool",
+    "description": "Caelum is one of the constellations created by Nicolas Louis de Lacaille. He originally named it Caelum Scalptorium (or les Burins in French), which means “the engraver’s chisel” in Latin."
   },
   {
     "abbr": "Cam",
     "name": "Camelopardalis",
     "genitive": "Camelopardalis",
-    "en": "giraffe"
+    "en": "giraffe",
+    "description": "The Latin word camelopardalis means “the giraffe,” and is a combination of the Greek words for the camel and the leopard. The Greeks came up with the name because the giraffe reminded them of the camel because of its long neck, and had spots like a leopard."
   },
   {
     "abbr": "Cnc",
     "name": "Cancer",
     "genitive": "Cancri",
-    "en": "crab"
+    "en": "crab",
+    "description": "Cancer represents Karkinos, a crab sent by Hera to distract Heracles when he was fighting the Lemean Hydra as part of his Twelve Labours. Heracles kicked the crab so hard that it flew all the way into the sky, where it became a constellation. In a different version of the myth, Heracles crushed the crab underfoot and Hera placed it into the sky."
   },
   {
     "abbr": "CVn",
     "name": "Canes Venatici",
     "genitive": "Canum Venaticorum",
-    "en": "hunting dogs"
+    "en": "hunting dogs",
+    "description": "The constellation Canes Venatici was created by the Polish astronomer Johannes Hevelius in the 17th century. It represents two hunting dogs led by Boötes, the Herdsman, following the Great Bear (Ursa Major)."
   },
   {
     "abbr": "CMa",
     "name": "Canis Major",
     "genitive": "Canis Majoris",
-    "en": "greater dog"
+    "en": "greater dog",
+    "description": "Canis Minor is one of the Greek constellations. It represents the bigger dog following the mythical hunter Orion in pursuit of a hare, represented by Lepus constellation. The constellation is also sometimes associated with Laelaps, the fastest dog in the world, given to Europa by Zeus as a present."
   },
   {
     "abbr": "CMi",
     "name": "Canis Minor",
     "genitive": "Canis Minoris",
-    "en": "lesser dog"
+    "en": "lesser dog",
+    "description": "Canis Minor represents the smaller dog following Orion. The constellation is also sometimes associated with Maera, the dog that belonged to Icarius, the unlucky wine-maker who was killed by his friends and is represented by Boötes constellation. The dog was said to have jumped off a cliff out of grief after Icarius was killed."
   },
   {
     "abbr": "Cap",
     "name": "Capricornus",
     "genitive": "Capricorni",
-    "en": "sea goat"
+    "en": "sea goat",
+    "description": "Capricornus is one of the ancient constellations first catalogued by Ptolemy in the 2nd century. The constellation’s name means “the goat.” Capricornus is usually taken to represent the Greek forest deity Pan, who had the horns and legs of a goat. It is also sometimes identified as Amalthea, the goat that suckled the infant Zeus."
   },
   {
     "abbr": "Car",
     "name": "Carina",
     "genitive": "Carinae",
-    "en": "keel"
+    "en": "keel",
+    "description": "Carina was one of the three constellations that formed Argo Navis, a large constellation that represented the ship on which Jason and the Argonauts sailed to Colchis to get the Golden Fleece.  Carina represents the keel of the ship. Argo Navis constellation was divided into smaller constellations – Carina (the keel), Puppis (the stern) and Vela (the sails) by Nicolas Louis de Lacaille in the 18th century."
   },
   {
     "abbr": "Cas",
     "name": "Cassiopeia",
     "genitive": "Cassiopeiae",
-    "en": "Cassiopeia (mythological character)"
+    "en": "Cassiopeia (mythological character)",
+    "description": "Cassiopeia constellation represents the boastful queen Cassiopeia, wife of Cepheus and mother of Andromeda in Greek mythology. Cassiopeia claimed that she was more beautiful than the Nereids, and the nymphs asked the sea god Poseidon to punish the queen for her vanity. Poseidon sent the sea monster Cetus to ravage the queen’s land. King Cepheus asked an oracle for help and was told that he had to sacrifice his daughter Andromeda to appease Poseidon. The king and queen left their daughter chained to a rock, but Andromeda was saved from the monster by Perseus. Cassiopeia and Cepheus were placed into the sky by Poseidon. It is said that Cassiopeia spends six months every year upside down in the sky as punishment for her boastfulness."
   },
   {
     "abbr": "Cen",
     "name": "Centaurus",
     "genitive": "Centauri",
-    "en": "centaur"
+    "en": "centaur",
+    "description": "Centaurus constellation represents the half-man, half-horse hybrid creature from Greek mythology. It is usually associated with Chiron, the wise centaur who mentored Heracles, Theseus, Achilles, Jason, and other famous Greek heroes."
   },
   {
     "abbr": "Cep",
     "name": "Cepheus",
     "genitive": "Cephei",
-    "en": "Cepheus (mythological character)"
+    "en": "Cepheus (mythological character)",
+    "description": "Cepheus constellation represents King Cepheus of Aethiopia (a region that contained parts of present-day Egypt, Jordan and Israel), husband of Cassiopeia and father of Andromeda."
   },
   {
     "abbr": "Cet",
     "name": "Cetus",
     "genitive": "Ceti",
-    "en": "sea monster (whale)"
+    "en": "sea monster (whale)",
+    "description": "Cetus constellation represents the sea monster sent by Poseidon to ravage King Cepheus’ land after his wife Cassiopeia had boasted that she was more beautiful than the Nereids."
   },
   {
     "abbr": "Cha",
     "name": "Chamaeleon",
     "genitive": "Chamaeleontis",
-    "en": "chameleon"
+    "en": "chameleon",
+    "description": "Chamaeleon constellation was created by Dutch explorers in the 16th century. It was named after the chameleon, a type of lizard that can change colour to match the environment."
   },
   {
     "abbr": "Cir",
     "name": "Circinus",
     "genitive": "Circini",
-    "en": "compasses"
+    "en": "compasses",
+    "description": "Circinus is one of the constellations created by Nicolas Louis de Lacaille in the 18th century. He named it after the drafting tool used for drawing circles. The constellation does not represent the mariner’s compass like Pyxis constellation does, but is usually depicted as a pair of dividing compasses used to measure distances."
   },
   {
     "abbr": "Col",
     "name": "Columba",
     "genitive": "Columbae",
-    "en": "dove"
+    "en": "dove",
+    "description": "Columba constellation represents the dove. It was introduced by Petrus Plancius in the 16th century and originally named Columba Noachi, or Noah’s Dove, in reference to the dove that signalled to Noah that the Great Flood was receding."
   },
   {
     "abbr": "Com",
     "name": "Coma Berenices",
     "genitive": "Comae Berenices",
-    "en": "Berenice's hair"
+    "en": "Berenice's hair",
+    "description": "Coma Berenices constellation was named after Queen Berenice II of Egypt. Berenice swore to Aphrodite that she would cut off her long blonde hair if the goddess brought her husband, Ptolemy III Euergetes, back home safely from a dangerous mission against the Seleucids, who had killed the king’s sister during the Third Syrian War. When Ptolemy returned, the queen fulfilled her promise and placed her hair in Aphrodite’s temple. The hair disappeared the next day, which made the king angry. To calm him down, Conon, the court astronomer, told him that the goddess was so pleased with Berenice’s hair that she placed it into the sky."
   },
   {
     "abbr": "CrA",
     "name": "Corona Australis",
     "genitive": "Coronae Australis",
-    "en": "southern crown"
+    "en": "southern crown",
+    "description": "Corona Australis is one of the Greek constellations. The Greeks saw it not as a crown, but as a wreath associated with the centaur represented by Sagittarius constellation. The constellation is also sometimes associated with the crown that Dionysus placed in the sky after freeing his mother Semele from Hades."
   },
   {
     "abbr": "CrB",
     "name": "Corona Borealis",
     "genitive": "Coronae Borealis",
-    "en": "northern crown"
+    "en": "northern crown",
+    "description": "Corona Borealis, or the Northern Crown, represents the crown worn by the Cretan princess Ariadne at her wedding. After helping Theseus defeat the Minotaur and find his way out of the labyrinth, Ariadne sailed off with the hero, but was abandoned by him on the island of Naxos. Dionysus saw her weeping there and fell in love. The two were later married. At the wedding, Ariadne wore a crown made by the god Hephaestus, and threw it into the sky after the ceremony. It is said that the jewels turned into stars which now form the constellation Corona Borealis."
   },
   {
     "abbr": "Crv",
     "name": "Corvus",
     "genitive": "Corvi",
-    "en": "crow"
+    "en": "crow",
+    "description": "Corvus is another Greek constellation. It represents the crow (or raven), the sacred bird of the god Apollo. In the myth, Apollo tells the raven to watch over his pregnant lover Coronis. After a while, Coronis loses interest in the god and falls in love with a human man. When the bird reports the affair to Apollo, the god becomes so angry that the raven did not stop the affair that he curses it, scorching the raven’s feathers and turning them black. (The bird had originally had white feathers.) Coronis’ son, the healer Asclepius, is represented by Ophiuchus constellation.  In a different tale, Apollo sends the raven to fetch him some water in a cup, represented by Crater constellation, and the bird gets distracted by a fig tree and stops to feast. Later, the raven blames its tardiness on a water snake (represented by Hydra constellation), but the god is so angry that he casts all three – the raven, the water snake, and the cup (Crater) – into the sky. Apollo also casts a curse on the bird, turning its feathers black, and making the raven eternally thirsty. This, according to the tale, is why ravens and crows have such raspy voices."
   },
   {
     "abbr": "Crt",
     "name": "Crater",
     "genitive": "Crateris",
-    "en": "cup"
+    "en": "cup",
+    "description": "Crater represents the cup of Apollo, usually drawn as a two-handed chalice."
   },
   {
     "abbr": "Cru",
     "name": "Crux",
     "genitive": "Crucis",
-    "en": "southern cross"
+    "en": "southern cross",
+    "description": "Crux constellation is associated with many myths and stories across different cultures. Greeks could see the constellation before it dropped below the horizon for most of the northern hemisphere, and some saw significance in the celestial cross disappearing from the sky and linked it to the crucifixion of Christ. By the year 400 AD, the cross could not be seen from most of Europe, and Europeans did not rediscover the constellation until the late 15th century."
   },
   {
     "abbr": "Cyg",
     "name": "Cygnus",
     "genitive": "Cygni",
-    "en": "swan or Northern Cross"
+    "en": "swan or Northern Cross",
+    "description": "Cygnus constellation is most commonly associated with the myth of Leda, the Spartan queen who gave birth to two sets of twins – the mortal Clytemnestra and Castor and the immortal Pollux and Helen – after being seduced by Zeus, who came to her in the form of a swan. The mortal children were fathered by Leda’s husband Tyndareus and the immortal ones by Zeus. Castor and Pollux are associated with Gemini constellation."
   },
   {
     "abbr": "Del",
     "name": "Delphinus",
     "genitive": "Delphini",
-    "en": "dolphin"
+    "en": "dolphin",
+    "description": "Delphinus is one of the Greek constellations. It is associated with Poseidon’s messenger, the dolphin that helped the god find the nymph Amphitrite, whom he later married. In a different myth, Delphinus is the dolphin that saved the life of the poet Arion. The god Apollo placed it into the sky next to Lyra constellation, which in this version of the myth represents Arion’s lyre."
   },
   {
     "abbr": "Dor",
     "name": "Dorado",
     "genitive": "Doradus",
-    "en": "dolphinfish"
+    "en": "dolphinfish",
+    "description": "Dorado is one of the constellations created by Dutch explorers in the 16th century. It represents the dolphinfish."
   },
   {
     "abbr": "Dra",
     "name": "Draco",
     "genitive": "Draconis",
-    "en": "dragon"
+    "en": "dragon",
+    "description": "Draco constellation represents the dragon Ladon, the mythical creature with a hundred heads that guarded the gardens of the Hesperides in Greek mythology. Heracles killed the dragon with his poisoned arrows as part of his Twelve Labours. In Roman legend, Draco is associated with one of the Giant Titans who warred with Zeus and other Olympian gods for a decade. The Titan was killed by Minerva in battle and thrown into the sky, where it froze around the North Pole."
   },
   {
     "abbr": "Equ",
     "name": "Equuleus",
     "genitive": "Equulei",
-    "en": "pony"
+    "en": "pony",
+    "description": "Draco constellation represents the dragon Ladon, the mythical creature with a hundred heads that guarded the gardens of the Hesperides in Greek mythology. Heracles killed the dragon with his poisoned arrows as part of his Twelve Labours. In Roman legend, Draco is associated with one of the Giant Titans who warred with Zeus and other Olympian gods for a decade. The Titan was killed by Minerva in battle and thrown into the sky, where it froze around the North Pole."
   },
   {
     "abbr": "Eri",
     "name": "Eridanus",
     "genitive": "Eridani",
-    "en": "river Eridanus (mythology)"
+    "en": "river Eridanus (mythology)",
+    "description": "Eridanus is the ancient Greek name for the river Po in Italy. In mythology, Eridanus is usually associated with the story of Phaëton, the son of the Sun god Helios who begged his father to let him drive his chariot across the sky. Helios agreed to this and Phaëton mounted the chariot. However, since he was an inexperienced driver, he soon lost control of the horses and the chariot plunged close to Earth, setting lands on fire and turning Libya into a desert. Zeus had to prevent further disaster and he struck the young man down with a thunderbolt. Phaëton fell into the river Eridanus and his father did not drive his chariot for days after his son’s death, leaving the world in darkness."
   },
   {
     "abbr": "For",
     "name": "Fornax",
     "genitive": "Fornacis",
-    "en": "chemical furnace"
+    "en": "chemical furnace",
+    "description": "Fornax is one of the southern constellations created by Lacaille in the 18th century. It was originally named Fornax Chemica, after the chemical furnace, a small heater used in chemical experiments."
   },
   {
     "abbr": "Gem",
     "name": "Gemini",
     "genitive": "Geminorum",
-    "en": "twins"
+    "en": "twins",
+    "description": "Gemini constellation was named after the mythical twins Castor and Polydeuces. Two of the constellation’s brightest stars carry the twins’ names."
   },
   {
     "abbr": "Gru",
     "name": "Grus",
     "genitive": "Gruis",
-    "en": "Crane"
+    "en": "Crane",
+    "description": "Grus constellation was introduced by the Dutch astronomer Petrus Plancius in the late 16th century. It is one of the constellations named after exotic animals, created by Dutch navigators during their expedition to the East Indies. The constellation represents the crane."
   },
   {
     "abbr": "Her",
     "name": "Hercules",
     "genitive": "Herculis",
-    "en": "Hercules (mythological character)"
+    "en": "Hercules (mythological character)",
+    "description": "Hercules constellation was named after Heracles, the legendary hero from Greek mythology. It is one of the oldest constellations in the sky, dating back to Sumerian times."
   },
   {
     "abbr": "Hor",
     "name": "Horologium",
     "genitive": "Horologii",
-    "en": "pendulum clock"
+    "en": "pendulum clock",
+    "description": "Horologium is another one of Lacaille’s constellations. Its original name was Horologium Oscillitorium, or “the pendulum clock.” Lacaille named the constellation after the pendulum clock to honour its inventor, Christiaan Huygens."
   },
   {
     "abbr": "Hya",
     "name": "Hydra",
     "genitive": "Hydrae",
-    "en": "Hydra (mythological creature)"
+    "en": "Hydra (mythological creature)",
+    "description": "The largest of the 88 constellations was named after the Lernaean Hydra, the monster from the myth of Heracles’ Twelve Labours. It is one of the Greek constellations, first documented by Ptolemy in the 2nd century."
   },
   {
     "abbr": "Hyi",
     "name": "Hydrus",
     "genitive": "Hydri",
-    "en": "lesser water snake"
+    "en": "lesser water snake",
+    "description": "Hydrus is not associated with any myths. It is one of the constellations introduced by Petrus Plancius in the late 16th century. It represents the sea snakes that Dutch explorers would have seen on their journeys to the East Indies."
   },
   {
     "abbr": "Ind",
     "name": "Indus",
     "genitive": "Indi",
-    "en": "Indian"
+    "en": "Indian",
+    "description": "Indus is another constellation introduced by Plancius. It represents the Indian. Since Dutch explorers encountered many indigenous peoples on their expeditions, it is unclear if the constellation’s name refers to a native of the East Indies, Madagascar, or South Africa."
   },
   {
     "abbr": "Lac",
     "name": "Lacerta",
     "genitive": "Lacertae",
-    "en": "lizard"
+    "en": "lizard",
+    "description": "Lacerta is one of the constellations created by the Polish astronomer Johannes Hevelius in the 17th century. It is not associated with any myths."
   },
   {
     "abbr": "Leo",
     "name": "Leo",
     "genitive": "Leonis",
-    "en": "lion"
+    "en": "lion",
+    "description": "Leo constellation is associated with the Nemean lion in Greek mythology, the beast killed by Heracles as part of his Twelve Labours."
   },
   {
     "abbr": "LMi",
     "name": "Leo Minor",
     "genitive": "Leonis Minoris",
-    "en": "lesser lion"
+    "en": "lesser lion",
+    "description": "Leo Minor is one of the constellations introduced by Hevelius in the 17th century. There are no stories associated with it."
   },
   {
     "abbr": "Lep",
     "name": "Lepus",
     "genitive": "Leporis",
-    "en": "hare"
+    "en": "hare",
+    "description": "Lepus is one of the Greek constellations, first catalogued by Ptolemy in the 2nd century. It is not associated with any particular stories from Greek mythology, but is often depicted as a hare chased by the hunter Orion and his two dogs, Canis Major and Canis Minor."
   },
   {
     "abbr": "Lib",
     "name": "Libra",
     "genitive": "Librae",
-    "en": "balance"
+    "en": "balance",
+    "description": "The name Libra means “the weighing scales” in Latin, and the constellation represents the scales of justice held by Dike, the Greek goddess of justice, associated with Virgo constellation."
   },
   {
     "abbr": "Lup",
     "name": "Lupus",
     "genitive": "Lupi",
-    "en": "wolf"
+    "en": "wolf",
+    "description": "Lupus is a very old constellation, first catalogued by Ptolemy. It was not associated with the wolf until the Renaissance times. The Greeks called the constellation Therium, which means “wild animal,” and the Romans knew it as Bestia, the beast. The stars of Lupus used to be part of Centaurus constellation, and they represented an animal sacrificed by the centaur. The centaur was holding the animal toward an altar, represented by Ara constellation."
   },
   {
     "abbr": "Lyn",
     "name": "Lynx",
     "genitive": "Lyncis",
-    "en": "lynx"
+    "en": "lynx",
+    "description": "Lynx is one of the constellations introduced by Johannes Hevelius. It represents the lynx. Hevelius gave it this name because it is a faint constellation and it takes the eyesight of a lynx to see it."
   },
   {
     "abbr": "Lyr",
     "name": "Lyra",
     "genitive": "Lyrae",
-    "en": "lyre / harp"
+    "en": "lyre / harp",
+    "description": "Lyra constellation represents the lyre of Orpheus, the Greek poet and musician who died at the hands of the Bacchantes."
   },
   {
     "abbr": "Men",
     "name": "Mensa",
     "genitive": "Mensae",
-    "en": "Table Mountain (South Africa)"
+    "en": "Table Mountain (South Africa)",
+    "description": "The name Mensa means “the table” in Latin. The constellation was created by Nicolas Louis de Lacaille in the 18th century. He originally named it Mons Mensae, which is the Latin name for Table Mountain in South Africa. Lacaille spent a couple of years there mapping the southern skies."
   },
   {
     "abbr": "Mic",
     "name": "Microscopium",
     "genitive": "Microscopii",
-    "en": "microscope"
+    "en": "microscope",
+    "description": "Microscopium is one of Lacaille’s constellations. He named it after an early type of compound microscope, one that was widely used in the 18th century."
   },
   {
     "abbr": "Mon",
     "name": "Monoceros",
     "genitive": "Monocerotis",
-    "en": "unicorn"
+    "en": "unicorn",
+    "description": "The name Monoceros means “the unicorn” in Latin. The constellation was created by the Dutch astronomer, cartographer, and clergyman Petrus Plancius in 1612. He named it after the unicorn because the mythical animal appears several times in the Old Testament."
   },
   {
     "abbr": "Mus",
     "name": "Musca",
     "genitive": "Muscae",
-    "en": "fly"
+    "en": "fly",
+    "description": "Musca is one of the constellations introduced by Dutch explorers in the 16th century. It represents the fly."
   },
   {
     "abbr": "Nor",
     "name": "Norma",
     "genitive": "Normae",
-    "en": "carpenter's level"
+    "en": "carpenter's level",
+    "description": "Norma constellation represents the draughtsman’s set-square and rule, or a carpenter’s square, one used by carpenters on exploratory vessels. It was created by Nicolas Louis de Lacaille in the 18th century."
   },
   {
     "abbr": "Oct",
     "name": "Octans",
     "genitive": "Octantis",
-    "en": "octant (instrument)"
+    "en": "octant (instrument)",
+    "description": "Octans constellation represents the reflecting octant, the precursor to the modern sextant. It was created by Nicolas Louis de Lacaille in 1752."
   },
   {
     "abbr": "Oph",
     "name": "Ophiuchus",
     "genitive": "Ophiuchi",
-    "en": "serpent-bearer"
+    "en": "serpent-bearer",
+    "description": "Ophiuchus is another Greek constellation. It represents Asclepius, the famous healer in Greek mythology, and is usually depicted as a man holding a serpent, represented by the constellation Serpens. Asclepius is said to have learned how to bring people back from the dead when he saw one snake bringing healing herbs to another."
   },
   {
     "abbr": "Ori",
     "name": "Orion",
     "genitive": "Orionis",
-    "en": "Orion (mythological character)"
+    "en": "Orion (mythological character)",
+    "description": "Orion constellation represents the mythical hunter Orion, son of the sea god Poseidon and the Cretan princess Euryale. It is one of the oldest constellations known, also associated with the Sumerian myth of Gilgamesh."
   },
   {
     "abbr": "Pav",
     "name": "Pavo",
     "genitive": "Pavonis",
-    "en": "peacock"
+    "en": "peacock",
+    "description": "avo constellation was introduced by Petrus Plancius in the 16th century. It represents the Java green peacock that Dutch navigators probably encountered while exploring the East Indies."
   },
   {
     "abbr": "Peg",
     "name": "Pegasus",
     "genitive": "Pegasi",
-    "en": "Pegasus (mythological creature)"
+    "en": "Pegasus (mythological creature)",
+    "description": "Pegasus represents the white winged horse from Greek mythology. The horse was said to have sprung from the neck of the Gorgon Medusa when Perseus beheaded her."
   },
   {
     "abbr": "Per",
     "name": "Perseus",
     "genitive": "Persei",
-    "en": "Perseus (mythological character)"
+    "en": "Perseus (mythological character)",
+    "description": "Perseus constellation represents the Greek hero Perseus. It is one of the six constellations associated with Perseus and was originally catalogued by Ptolemy in the 2nd century."
   },
   {
     "abbr": "Phe",
     "name": "Phoenix",
     "genitive": "Phoenicis",
-    "en": "phoenix"
+    "en": "phoenix",
+    "description": "The constellation Phoenix represents the mythical firebird, sacred across many cultures and mythologies. Phoenix was one of the southern constellations introduced by Dutch explorers in the late 16th century."
   },
   {
     "abbr": "Pic",
     "name": "Pictor",
     "genitive": "Pictoris",
-    "en": "easel"
+    "en": "easel",
+    "description": "The name Pictor means “the painter” in Latin. The constellation, created by Lacaille in the 17th century, was originally named le Chevalet et la Palette, or “the easel and palette,” and the name was later Latinized to Equuleus Pictoris, or “the painter’s easel,” and eventually shortened to Pictor."
   },
   {
     "abbr": "Psc",
     "name": "Pisces",
     "genitive": "Piscium",
-    "en": "fishes"
+    "en": "fishes",
+    "description": "The name Pictor means “the painter” in Latin. The constellation, created by Lacaille in the 17th century, was originally named le Chevalet et la Palette, or “the easel and palette,” and the name was later Latinized to Equuleus Pictoris, or “the painter’s easel,” and eventually shortened to Pictor."
   },
   {
     "abbr": "PsA",
     "name": "Piscis Austrinus",
     "genitive": "Piscis Austrini",
-    "en": "southern fish"
+    "en": "southern fish",
+    "description": "Piscis Austrinus is one of the ancient constellations, dating back to Babylonian times. In Greek mythology, it represents the Great Fish and is usually depicted as swallowing the water poured by Aquarius."
   },
   {
     "abbr": "Pup",
     "name": "Puppis",
     "genitive": "Puppis",
-    "en": "poop deck"
+    "en": "poop deck",
+    "description": "Puppis represents the stern of the Argo Navis, the ship on which the Argonauts sailed to get the Golden Fleece. The ship used to be represented by a single larger constellation, which was split into three smaller ones in the 18th century."
   },
   {
     "abbr": "Pyx",
     "name": "Pyxis",
     "genitive": "Pyxidis",
-    "en": "mariner's compass"
+    "en": "mariner's compass",
+    "description": "Pyxis constellation represents the mariner’s compass. It was created by Nicolas Louis de Lacaille, who originally named it Pyxis Nautica."
   },
   {
     "abbr": "Ret",
     "name": "Reticulum",
     "genitive": "Reticuli",
-    "en": "eyepiece graticule"
+    "en": "eyepiece graticule",
+    "description": "Reticulum represents the reticle. The constellation was named by Nicolas Louis de Lacaille, who gave it the name le Réticule Rhomboide to commemorate the reticle in his telescope, which he used during his trip to South Africa, where he spent some time mapping the southern skies in the 1750s. The constellation was created in 1621 by Isaac Habrecht II, who originally named it Rhombus."
   },
   {
     "abbr": "Sge",
     "name": "Sagitta",
     "genitive": "Sagittae",
-    "en": "arrow"
+    "en": "arrow",
+    "description": "Sagitta is one of the Greek constellations. It represents the arrow that Heracles used to kill the eagle that gnawed on Prometheus’ liver."
   },
   {
     "abbr": "Sgr",
     "name": "Sagittarius",
     "genitive": "Sagittarii",
-    "en": "archer"
+    "en": "archer",
+    "description": "Sagittarius constellation represents a centaur aiming an arrow toward Antares, the bright star that marks the scorpion’s heart. It is also frequently associated with Crotus, the son of Pan, who invented archery and lived on Mount Helicon. Crotus was said to have two feet and a satyr’s tail. Sagittarius is also sometimes wrongly associated with the centaur Chiron, represented by Centaurus constellation."
   },
   {
     "abbr": "Sco",
     "name": "Scorpius",
     "genitive": "Scorpii",
-    "en": "scorpion"
+    "en": "scorpion",
+    "description": "Scorpius is one of the Greek constellations, first catalogued by Ptolemy. It represents the scorpion that killed the mythical hunter Orion. Orion is still said to be fleeing from the scorpion, and this is why the two constellations can never be seen in the sky at the same time: Orion sets just as Scorpius rises."
   },
   {
     "abbr": "Scl",
     "name": "Sculptor",
     "genitive": "Sculptoris",
-    "en": "sculptor"
+    "en": "sculptor",
+    "description": "Sculptor constellation represents the sculptor’s studio. It was created by Lacaille in the 18th century and originally named l’Atelier du Sculpteur."
   },
   {
     "abbr": "Sct",
     "name": "Scutum",
     "genitive": "Scuti",
-    "en": "shield (of Sobieski)"
+    "en": "shield (of Sobieski)",
+    "description": "Scutum was created by Johannes Hevelius in the 17th century. He named the constellation Scutum Sobiescianum, or the Shield of Sobieski, to honour the victory of the Polish King Jan III Sobieski in the Battle of Vienna in 1683. The name was later shortened to Scutum, the shield."
   },
   {
     "abbr": "Ser",
     "name": "Serpens",
     "genitive": "Serpentis",
-    "en": "snake"
+    "en": "snake",
+    "description": "Serpens is usually associated with the snake held by the healer Asclepius, represented by the constellation Ophiuchus."
   },
   {
     "abbr": "Sex",
     "name": "Sextans",
     "genitive": "Sextantis",
-    "en": "sextant"
+    "en": "sextant",
+    "description": "Sextans is one of the constellations introduced by the Polish astronomer Johannes Hevelius. It represents the astronomical sextant. Hevelius named the constellation after the sextant he used to measure star positions. The constellation’s original name was Sextans Uraniae, but it was later shortened to simply Sextant."
   },
   {
     "abbr": "Tau",
     "name": "Taurus",
     "genitive": "Tauri",
-    "en": "bull"
+    "en": "bull",
+    "description": "Taurus is one of the oldest constellations known. It was first catalogued by Ptolemy in the 2nd century.  In Greek mythology, Taurus represents the god Zeus, who in one tale transformed himself into a bull in order to seduce and abduct Europa, the beautiful daughter of the Phoenician King Agenor.  In a different myth, the constellation is associated with the nymph Io, who was also seduced by Zeus. When the two were almost caught by Zeus’ wife Hera, the god transformed Io into a heifer to protect her."
   },
   {
     "abbr": "Tel",
     "name": "Telescopium",
     "genitive": "Telescopii",
-    "en": "telescope"
+    "en": "telescope",
+    "description": "Telescopium is one of the constellations created by Nicolas Louis de Lacaille that were named after various instruments. The constellation represents an aerial telescope, a type of refractor."
   },
   {
     "abbr": "Tri",
     "name": "Triangulum",
     "genitive": "Trianguli",
-    "en": "triangle"
+    "en": "triangle",
+    "description": "Triangulum, or “the triangle,” is one of the Greek constellations, first catalogued by Ptolemy in the 2nd century. The Greeks called the constellation Deltoton because its shape resembled the Greek letter delta."
   },
   {
     "abbr": "TrA",
     "name": "Triangulum Australe",
     "genitive": "Trianguli Australis",
-    "en": "southern triangle"
+    "en": "southern triangle",
+    "description": "Triangulum Australe means “the southern triangle” in Latin. The constellation was created by the Dutch cartographer Petrus Plancius from observations of Dutch navigators in the late 16th century. Like most southern constellations, it is not associated with any myths."
   },
   {
     "abbr": "Tuc",
     "name": "Tucana",
     "genitive": "Tucanae",
-    "en": "toucan"
+    "en": "toucan",
+    "description": "Tucana is one of the southern constellations created by Dutch explorers in the late 16th century. It was named after the toucan, a type of bird found in South America."
   },
   {
     "abbr": "UMa",
     "name": "Ursa Major",
     "genitive": "Ursae Majoris",
-    "en": "great bear"
+    "en": "great bear",
+    "description": "Ursa Major, the “great bear” in Latin, is associated with many different myths in many cultures, and represents a bear in many of the legends it is associated with across the globe. It is one of the most ancient constellations in the sky. In Greek mythology, it is most commonly taken to represent Callisto, a nymph Zeus fell in love with, whom his wife Hera turned into a bear. Sometimes the constellation is also associated with Adrasteia, a nymph who took care of Zeus when he was very young."
   },
   {
     "abbr": "UMi",
     "name": "Ursa Minor",
     "genitive": "Ursae Minoris",
-    "en": "lesser bear"
+    "en": "lesser bear",
+    "description": "Ursa Minor is another Greek constellation. It is usually associated with either Arcas, the son of Zeus and the nymph Callisto, or with Ida, one of the nymphs who took care of Zeus on Crete, where his mother Rhea had hidden him from his father because Cronus, fearful of an old prophecy that said he would be overthrown by one of his children, swallowed five of his older children after they were born."
   },
   {
     "abbr": "Vel",
     "name": "Vela",
     "genitive": "Velorum",
-    "en": "sails"
+    "en": "sails",
+    "description": "The name Vela means “the sails” in Latin. It is one of the three constellations that used to form the larger constellation Argo Navis, which represented the ship of the Argonauts."
   },
   {
     "abbr": "Vir",
     "name": "Virgo",
     "genitive": "Virginis",
-    "en": "virgin or maiden"
+    "en": "virgin or maiden",
+    "description": "Virgo is one of the Greek constellations. It is associated with Dike, the Greek goddess of justice, holding the scales of justice represented by the neighbouring constellation Libra."
   },
   {
     "abbr": "Vol",
     "name": "Volans",
     "genitive": "Volantis",
-    "en": "flying fish"
+    "en": "flying fish",
+    "description": "Volans constellation represents the flying fish, a type of fish found in tropical waters that can jump out of the water and glide through the air. It is one of the southern constellations introduced by Dutch navigators in the 16th century."
   },
   {
     "abbr": "Vul",
     "name": "Vulpecula",
     "genitive": "Vulpeculae",
-    "en": "fox"
+    "en": "fox",
+    "description": "Vulpecula constellation was created and named by the Polish astronomer Johannes Hevelius in the 17th century. It represents a little fox holding a goose in its jaws. Hevelius originally named it Vulpecula et Anser, which means “the little fox with the goose” in Latin. He said that the constellation represented a fox carrying a goose to Cerberus, the dog that guarded the entrance to the Underworld in Greek mythology."
   }
 ]
