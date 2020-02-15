@@ -14,6 +14,12 @@ $(document).ready(function() {
     });
   }
 
+  function getUserName() {
+    $.get("/api/user_data").then(function(data) {
+      $("#userName").text(data.name);
+    });
+  }
+
   function getInfo() {
     $.ajax({
       method: "GET",
@@ -71,8 +77,5 @@ $(document).ready(function() {
   }
 
   getConstellations();
-
-  $.get("/api/user_data").then(function(data) {
-    $(".member-name").text(data.email);
-  });
+  getUserName();
 });
