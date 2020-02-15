@@ -6,6 +6,8 @@ $(document).ready(function() {
 
   // When the form is submitted, we validate there's an email and password entered
   loginForm.on("submit", function(event) {
+    $("#alert .msg").html("");
+    $("#alert").fadeOut(500);
     event.preventDefault();
     const userData = {
       email: emailInput.val().trim(),
@@ -32,8 +34,12 @@ $(document).ready(function() {
         window.location.replace("/stars");
         // If there's an error, log the error
       })
-      .catch(function(err) {
-        console.log(err);
-      });
+      .catch(handleLoginErr);
+  }
+
+  function handleLoginErr(err) {
+    console.log("error", err.responseJSON);
+    $("#alert .msg").text("Invalid email or password");
+    $("#alert").fadeIn(500);
   }
 });

@@ -18,25 +18,33 @@
 
 <body>
 
-  <!--Navbar with toggled menu that is not working as desired-->
+  <!--Navbar with no options-->
   <nav class="navbar navbar-dark bg-dark" id="navbar">
-    <h1 class="navbar-brand" id="navbarBrand" href="#">Star Gazer</h1>
+    <div class="navbar-brand" id="navbarBrand">
+      <h1>Star Gazer</h1>
+    </div>
   </nav>
 
   <!--Main content of the page-->
+  <div class="container mt-4 mb-4">
 
-  <div class="container">
+    <!--Login Form-->
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <h2>Login</h2>
-        <form class="login">
-          <div class="form-group">
+        <h2>Login Form</h2>
+        <form class="login mb-5">
+          <div class="form-group mb-4">
+
             <label for="email-input">Email address</label>
             <input type="email" class="form-control" id="email-input" placeholder="Email">
           </div>
           <div class="form-group">
             <label for="password-input">Password</label>
             <input type="password" class="form-control" id="password-input" placeholder="Password">
+          </div>
+          <div style="display: none" id="alert" class="alert alert-danger" role="alert">
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            <span class="sr-only">Error:</span> <span class="msg"></span>
           </div>
           <button type="submit" class="btn btn-primary mt-3">Login</button>
         </form>
@@ -46,10 +54,10 @@
   </div>
 
   <!--Extra div keeps footer from covering content on smaller devices-->
-  <div class="push"></div>
+  <div class="push mt-4 mb-4"></div>
 
   <!--Footer w/copyright-->
-  <footer class="copyright footer-dark bg-dark">
+  <footer class="copyright footer-dark bg-dark mt-4">
     <p>&copy; 2020 James Nelson, Elizabeth Garcia-Quilinquin, Jared Bucko, Laurie Schroeder</p>
   </footer>
 
