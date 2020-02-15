@@ -71,4 +71,8 @@ $(document).ready(function() {
   }
 
   getConstellations();
+
+  $.get("/api/user_data").then(function(data) {
+    $(".member-name").text(data.email);
+  });
 });
