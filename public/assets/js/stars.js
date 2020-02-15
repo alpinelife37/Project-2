@@ -67,7 +67,8 @@ $(document).ready(function() {
     const info = `
       <p>Name: ${data.name} (${data.abbr})</p>
       <p>Derived from: ${data.genitive}</p>
-      <p>English Translation: ${data.en}</p>`;
+      <p>English Translation: ${data.en}</p>
+      <p>Description: ${data.description}</p>`;
     const infoDiv = $(".const-info");
     infoDiv.append(info);
   }
