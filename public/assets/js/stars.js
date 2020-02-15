@@ -34,6 +34,7 @@ $(document).ready(function () {
 
   $("#search").on("click", function(event) {
     event.preventDefault();
+    $("div.const-info").html("");
     console.log("clicked");
     populateImg();
     getInfo();
@@ -42,8 +43,13 @@ $(document).ready(function () {
   function populateImg() {
     const imgDiv = $(".const-image");
     const imgTag = $("<img id='starImg'>");
-    const constName = $("#inputConstName").val();
-    const constImage = `https://starregistration.net/media/wysiwyg/Constellations/${constName}.png`;
+    const constName = $("#inputConstName")
+      .val()
+      .trim()
+      .toLowerCase()
+      .replace(/\s/g, "_");
+    const newConstName = constName.charAt(0).toUpperCase() + constName.slice(1);
+    const constImage = `https://starregistration.net/media/wysiwyg/Constellations/${newConstName}.png`;
     imgDiv.append(imgTag);
     $("#starImg").attr({ src: constImage, alt: constName });
   }

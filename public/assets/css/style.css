@@ -24,11 +24,11 @@ form {
   color: white;
 }
 
-#navbar {
+/* #navbar {
   height: 6em;
   margin-bottom: 20px;
   display:flex;
-}
+} */
 
 #navbarBrand {
   font-size: 3em;
