@@ -8,6 +8,8 @@ $(document).ready(function() {
   // When the signup button is clicked, we validate the email and password are not blank
   signUpForm.on("click", function(event) {
     event.preventDefault();
+    $("#alert .msg").html("");
+    $("#alert").fadeOut(500);
     const userData = {
       name: nameInput.val().trim(),
       email: emailInput.val().trim(),
@@ -40,7 +42,9 @@ $(document).ready(function() {
   }
 
   function handleLoginErr(err) {
-    $("#alert .msg").text(err.responseJSON);
+    $("#alert .msg").text(
+      "User already exists, please login or use different email."
+    );
     $("#alert").fadeIn(500);
   }
 });
