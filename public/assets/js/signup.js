@@ -42,6 +42,7 @@ $(document).ready(function() {
   }
 
   function handleLoginErr(err) {
+    console.log("error", err.responseJSON);
     $("#alert .msg").text(
       "User already exists, please login or use different email."
     );
