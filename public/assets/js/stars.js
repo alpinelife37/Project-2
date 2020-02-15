@@ -52,6 +52,13 @@ $(document).ready(function() {
     const constImage = `https://starregistration.net/media/wysiwyg/Constellations/${newConstName}.png`;
     imgDiv.append(imgTag);
     $("#starImg").attr({ src: constImage, alt: constName });
+    console.log(newConstName);
+    if (newConstName === "Bo\u00f6tes") {
+      const constImage =
+        "https://starregistration.net/media/wysiwyg/Constellations/Bootes.png";
+      imgDiv.append(imgTag);
+      $("#starImg").attr({ src: constImage, alt: constName });
+    }
   }
 
   function populateInfo(data) {
@@ -64,4 +71,8 @@ $(document).ready(function() {
   }
 
   getConstellations();
+
+  $.get("/api/user_data").then(function(data) {
+    $(".member-name").text(data.email);
+  });
 });
