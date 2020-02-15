@@ -13,7 +13,7 @@ form {
 }
 
 .container {
-  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 /* End Global */
 
@@ -23,12 +23,6 @@ form {
 .nav-link {
   color: white;
 }
-
-/* #navbar {
-  height: 6em;
-  margin-bottom: 20px;
-  display:flex;
-} */
 
 #navbarBrand {
   font-size: 3em;
