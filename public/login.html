@@ -14,12 +14,14 @@
     defer></script>
   <!--CSS-->
   <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bowlby+One+SC&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
   <!--Navbar with no options-->
-  <nav class="navbar navbar-dark bg-dark" id="navbar">
+  <nav class="navbar navbar-dark transparent" id="navbar">
     <div class="navbar-brand" id="navbarBrand">
       <h1>Star Gazer</h1>
     </div>
@@ -29,8 +31,10 @@
   <div class="container mt-4 mb-4">
 
     <!--Login Form-->
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
+    <div class="row justify-content-center">
+      <div class="card card-login">
+    
+      <div class="col-md-11 col-md-offset-3">
         <h2>Login Form</h2>
         <form class="login mb-5">
           <div class="form-group mb-4">
@@ -48,16 +52,16 @@
           </div>
           <button type="submit" class="btn btn-primary mt-3">Login</button>
         </form>
-        <p>Or sign up <a href="/signup">here</a></p>
+        <p>Not a member? Sign-up <a href="/signup">here</a></p>
       </div>
     </div>
   </div>
-
+</div>
   <!--Extra div keeps footer from covering content on smaller devices-->
   <div class="push mt-4 mb-4"></div>
 
   <!--Footer w/copyright-->
-  <footer class="copyright footer-dark bg-dark mt-4">
+  <footer class="copyright footer-dark transparent mt-4">
     <p>&copy; 2020 James Nelson, Elizabeth Garcia-Quilinquin, Jared Bucko, Laurie Schroeder</p>
   </footer>
 

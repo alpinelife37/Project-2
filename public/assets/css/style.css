@@ -2,9 +2,8 @@ img {
   max-width: 100%;
   height: auto;
 }
-.card {
+.card-info {
   width: 800px;
-  margin-left: 130px;
   display: none;
 }
 body {
@@ -18,8 +17,15 @@ body {
  {
   color: white;
 }
-nav {
-  background: transparent;
+#navbar {
+  font-family: 'Bowlby One SC', cursive;
+}
+.card-login,
+.card-signup {
+  width: 500px;
+}
+.container {
+  font-family: 'Alfa Slab One', cursive;
 }
 
 /* Start Footer */

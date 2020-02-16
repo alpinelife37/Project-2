@@ -2,7 +2,7 @@
 $(document).ready(function() {
   $("select").change(event => {
     event.preventDefault();
-    $(".card").css("display", "block");
+    $(".card-info").css("display", "block");
     var str = "";
     $("select option:selected").each(function() {
       str += $(this).text();
