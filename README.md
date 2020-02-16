@@ -6,7 +6,7 @@
 
 Node based app that allows users to log in and view information about different astrological formations.
 
-![Example profile](./public/assets/example.png)
+![Example profile](./public/assets/images/example.png)
 [Deployed Link](https://aqueous-dusk-93036.herokuapp.com/)
 
 ### INSTALLATION INSTRUCTIONS
@@ -44,15 +44,21 @@ Node based app that allows users to log in and view information about different 
 
 - [MySql](https://www.npmjs.com/package/mysql)
 - [Express](https://www.npmjs.com/package/express)
-- [Body-parser](https://www.npmjs.com/package/body-parser)
 - [Eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
 - [Eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
 - [Express-handlebars](https://www.npmjs.com/package/express-handlebars)
-- [prettier](https://www.npmjs.com/package/prettier)
-- [mysql2](https://www.npmjs.com/package/mysql2)
-- [sequelize](https://www.npmjs.com/package/sequelize)
-- [eslint](https://www.npmjs.com/package/eslint)
-- [nodemon](https://www.npmjs.com/package/nodemon)
+- [Prettier](https://www.npmjs.com/package/prettier)
+- [Mysql2](https://www.npmjs.com/package/mysql2)
+- [Sequelize](https://www.npmjs.com/package/sequelize)
+- [Eslint](https://www.npmjs.com/package/eslint)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [Bcryptjs](https://www.npmjs.com/package/bcryptjs)
+- [Body-parser](https://www.npmjs.com/package/body-parser)
+- [Constellations](https://www.npmjs.com/package/constellations)
+- [Express-sessions](https://www.npmjs.com/package/express-sessions)
+- [Jquery](https://www.npmjs.com/package/jquery)
+- [Passport](https://www.npmjs.com/package/passport)
+- [Passport-local](https://www.npmjs.com/search?q=passport-local)
 
 ### AUTHOR
 
