@@ -62,10 +62,10 @@ Node based app that allows users to log in and view information about different 
 
 ### AUTHOR
 
-- [Github](https://github.com/equilinquin)
-- [Github](https://github.com/clauries)
-- [Github](https://github.com/jaredbucko)
-- [Github](https://github.com/alpinelife37)
+- [Elizabeth Garcia-Quilinquin \* Github](https://github.com/equilinquin)
+- [Laurie Schroeder \* Github](https://github.com/clauries)
+- [Jared Bucko \* Github](https://github.com/jaredbucko)
+- [James Nelson \* Github](https://github.com/alpinelife37)
 
 MIT License
 
