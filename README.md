@@ -25,6 +25,11 @@ Node based app that allows users to log in and view information about different 
 
 8. Click on the following Heroku link to see the deployed version. https://aqueous-dusk-93036.herokuapp.com/
 
+### RESOURCES
+
+- [Star Registry](https://starregistration.net/)
+- [Constellation-Guide](https://www.constellation-guide.com/constellation-names/)
+
 ### BUILT WITH
 
 - [HTML](https://html.com/)
