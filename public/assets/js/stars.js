@@ -2,10 +2,12 @@
 $(document).ready(function() {
   $("select").change(event => {
     event.preventDefault();
+    $(".card").css("display", "block");
     var str = "";
     $("select option:selected").each(function() {
       str += $(this).text();
     });
+    console.log(str);
     $("div.const-info").html("");
     getInfo(str);
     populateImg(str);
@@ -30,7 +32,7 @@ $(document).ready(function() {
     });
   }
 
-  function getInfo() {
+  function getInfo(name) {
     $.ajax({
       method: "GET",
       url: "/api/constellations"
@@ -65,10 +67,14 @@ $(document).ready(function() {
 
   function populateInfo(data) {
     const info = `
-      <p>Name: ${data.name} (${data.abbr})</p>
-      <p>Derived from: ${data.genitive}</p>
-      <p>English Translation: ${data.en}</p>
-      <p>Description: ${data.description}</p>`;
+      <h3>${data.name} (${data.abbr})</h3>
+      <h4>Derived from</h4>
+      <p>${data.genitive}</p>
+      <h4>English Translation</h4>
+      <p>${data.en}</p>
+      <h4>Description</h4>
+      <p>${data.description}</p>
+      <button type="button" class="btn btn-dark">Save</button>`;
     const infoDiv = $(".const-info");
     infoDiv.append(info);
   }

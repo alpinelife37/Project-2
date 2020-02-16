@@ -1,3 +1,27 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+.card {
+  width: 800px;
+  margin-left: 130px;
+  display: none;
+}
+body {
+  background-image: url("../images/constellation.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.dropdown,
+#navbar
+ {
+  color: white;
+}
+nav {
+  background: transparent;
+}
+
 /* Start Footer */
 .copyright {
   width: 100%;
