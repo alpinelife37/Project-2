@@ -25,12 +25,12 @@
     <!--CSS-->
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bowlby+One+SC&display=swap" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/9c52b15c6c.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <!--Navbar with responsive toggled menu-->
-    <nav class="navbar navbar-expand-lg transparent" id="navbar">
+    <nav class="navbar navbar-expand-lg transparent m-4" id="navbar">
       <div class="navbar-brand" id="navbarBrand">
         <h1>Star Gazer</h1>
       </div>
@@ -43,10 +43,10 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon text-white"><i class="fas fa-bars"></i></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
@@ -59,7 +59,7 @@
           </li>
         </ul>
         <div class="nav-item">
-          <div class="nav-link text-light">
+          <div class="nav-link text-light px-0">
             Logged in as:
             <div class="text-light" id="userName"></div>
           </div>
