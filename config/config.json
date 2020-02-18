@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "si11y#b0y",
+    "password": "1982",
     "database": "starGazer_db",
     "host": "127.0.0.1",
     "port": 3306,
@@ -9,7 +9,7 @@
   },
   "test": {
     "username": "root",
-    "password": "Gobruins2020",
+    "password": "1982",
     "database": "starGazer_db",
     "host": "127.0.0.1",
     "port": 3306,
@@ -17,7 +17,7 @@
   },
   "production": {
     "username": "root",
-    "password": "Gobruins2020",
+    "password": "1982",
     "database": "starGazer_db",
     "host": "127.0.0.1",
     "port": 3306,

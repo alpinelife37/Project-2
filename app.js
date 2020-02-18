@@ -5,9 +5,9 @@
 // *** Dependencies
 // =============================================================
 const express = require("express");
-const session = require("express-session");
+//const session = require("express-session");
 const passport = require("./config/passport");
-
+const session = require("cookie-session");
 // Sets up the Express App
 // =============================================================
 var app = express();
