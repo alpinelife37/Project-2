@@ -1,17 +1,46 @@
-img {
-  max-width: 100%;
-  height: auto;
+/* Start Global */
+html {
+  height: 100%
 }
-.card-info {
-  width: 800px;
-  display: none;
-}
+
 body {
   background-image: url("../images/constellation.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  font-family: 'Alfa Slab One', cursive;
+  flex: 1 0 auto;
+}
+/* End Global */
+
+
+
+/* Start Cards */
+.card-info {
+  width: 800px;
+  display: none;
+}
+
+.card-login,
+.card-signup {
+  width: 500px;
+}
+/* End Cards */
+
+
+
+/* Start Navbar */
 .dropdown,
 #navbar
  {
@@ -20,31 +49,21 @@ body {
 #navbar {
   font-family: 'Bowlby One SC', cursive;
 }
-.card-login,
-.card-signup {
-  width: 500px;
-}
-.container {
-  font-family: 'Alfa Slab One', cursive;
-}
+/* End Navbar */
+
+
 
 /* Start Footer */
 .copyright {
-  width: 100%;
   text-align: center;
   padding: 1rem 0;
-  position: fixed;
-  bottom: 0px;
   align-items: end;
+  flex-shrink: 0;
 }
 
 .copyright p {
   font-size: 1rem;
   color: white;
-}
-
-.push {
-  height: 2rem;
 }
 /* End Footer */
 
