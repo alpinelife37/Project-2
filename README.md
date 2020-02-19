@@ -18,7 +18,7 @@ Node based app that allows users to log in and view information about different 
 3. Then run the following two commands to migrate the database "npx sequelize-cli db:migrate",then - "npx sequelize-cli db:seed:all".
 4. Install the required modules by typing "npm install" or "npm i" in the containing folder using your code editor terminal.
 5. Run the app by typing "node app.js" or "node app."
-6. If successful, the user will see "connected on localhost:5000," and will be able to click on the link to see the app displayed n their default browser.
+6. If successful, the user will see "connected on localhost:8080," and will be able to click on the link to see the app displayed in their default browser.
 7. The user can then either sign up, or log in to see the main content. The user can also log out after they are done.
 
    - [Deployed Setup]
