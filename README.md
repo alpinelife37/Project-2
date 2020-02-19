@@ -23,7 +23,7 @@ Node based app that allows users to log in and view information about different 
 
    - [Deployed Setup]
 
-8. Click on the following Heroku link to see the deployed version. https://cryptic-oasis-97928.herokuapp.com/
+8. Click on the following Heroku link to see the deployed version. https://limitless-atoll-63723.herokuapp.com/
 
 ### RESOURCES
 
