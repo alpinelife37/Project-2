@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "si11y#b0y",
+    "password": "1982",
     "database": "starGazer_db",
     "host": "127.0.0.1",
     "port": 3306,
@@ -9,17 +9,17 @@
   },
   "test": {
     "username": "root",
-    "password": "Gobruins2020",
+    "password": "1982",
     "database": "starGazer_db",
     "host": "127.0.0.1",
     "port": 3306,
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "Gobruins2020",
-    "database": "starGazer_db",
-    "host": "127.0.0.1",
+    "username": "qz22s6qj0m38kpyf",
+    "password": "fp3hts2re3lspj19",
+    "database": "y1t0dq7iggl2lxo8",
+    "host": "o677vxfi8ok6exrd.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "port": 3306,
     "dialect": "mysql"
   }
